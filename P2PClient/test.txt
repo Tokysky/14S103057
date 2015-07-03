@@ -1,0 +1,24 @@
+Description[edit]
+HP Unified Functional Testing is automated testing software designed for testing various software applications and environments. It performs functional and regression testing through a user interface such as a native GUI or web interface.[9] It works by identifying the objects in the application user interface or a web page and performing desired operations (such as mouse clicks or keyboard events); it can also capture object properties like name or handler ID. HP Unified Functional Testing uses a VBScript scripting language to specify the test procedure and to manipulate the objects and controls of the application under test. To perform more sophisticated actions, users may need to manipulate the underlying VBScript.[10]
+
+Although HP Unified Functional Testing is usually used for "UI based" Test Case automation, it also can automate some "non-UI" based test cases, such as file system operations, database testing or Web services testing.
+
+Exception handling[edit]
+HP Unified Functional Testing manages exception handling using recovery scenarios; the goal is to continue running tests if an unexpected failure occurs.[11] Because HP Unified Functional Testing hooks into the memory space of the applications being tested, some exceptions may cause HP Unified Functional Testing to terminate and be unrecoverable.
+
+Data-driven testing[edit]
+HP Unified Functional Testing supports data-driven testing. For example, data can be output to a data table for reuse elsewhere. Data-driven testing is implemented as a Microsoft Excel workbook that can be accessed from HP Unified Functional Testing. HP Unified Functional Testing has two types of data tables: the Global data sheet and Action (local) data sheets. The test steps can read data from these data tables in order to drive variable data into the application under test, and verify the expected result.[12]
+
+Automating custom and complex UI objects[edit]
+HP Unified Functional Testing may not recognize customized user interface objects and other complex objects. Users can define these types of objects as virtual objects. HP Unified Functional Testing does not support virtual objects for analog recording or recording in low-level mode.[13]
+
+Extensibility[edit]
+HP Unified Functional Testing can be extended with separate add-ins for a number of development environments that are not supported out-of-the-box. HP Unified Functional Testing add-ins include support for Web, .NET, Java, and Delphi.[14] HP QuickTest Professional and the HP QuickTest Professional add-ins are packaged together in HP Functional Testing software.[15]
+
+User interface[edit]
+HP Unified Functional Testing provides two views¡ªand ways to modify¡ªa test script: Keyword View and Expert View. These views enable HP Unified Functional Testing to act as an Integrated Development Environment (IDE) for the test, and HP Unified Functional Testing includes many standard IDE features, such as breakpoints to pause a test at predetermined places.
+
+Keyword view[edit]
+Keyword View lets users create and view the steps of a test in a modular, table format. Each row in the table represents a step that can be modified. The Keyword View can also contain any of the following columns: Item, Operation, Value, Assignment, Comment, and Documentation. For every step in the Keyword View, HP Unified Functional Testing displays a corresponding line of script based on the row and column value. Users can add, delete or modify steps at any point.
+
+In Keyword View, users can also view properties for items such as checkpoints, output values, and actions, use conditional and loop statements, and insert breakpoints to assist in debugging a test.[16]
